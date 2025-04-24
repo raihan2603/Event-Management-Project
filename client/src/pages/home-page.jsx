@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import Layout from "../components/layout/layout.jsx";
+import Layout from "../components/layout/Layout.jsx";
 import Brands from "../components/product/brands.jsx";
 import ProductStore from "../store/ProductStore.js";
 import FeatureStore from "../store/FeatureStore.js";
