@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductStore from "../../store/ProductStore.js";
-import CategoriesSkeleton from "../../skeleton/categories-skeleton.jsx";
+import ProductStore from "../../store/ProductStore";
+import CategoriesSkeleton from "../../skeleton/categories-skeleton";
 import {Link} from "react-router-dom";
 
 const Categories = () => {

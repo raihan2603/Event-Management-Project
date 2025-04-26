@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
-import ProductStore from "../store/ProductStore.js";
+import ProductStore from "../store/ProductStore";
 import {useParams} from "react-router-dom";
-import Layout from "../components/layout/layout.jsx";
-import ProductList from "../components/product/product-list.jsx";
+import Layout from "../components/layout/Layout";
+import ProductList from "../components/product/product-list";
 
 const ProductByBrand = () => {
 

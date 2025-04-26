@@ -1,5 +1,6 @@
 import React from 'react';
-import AppNavBar from "./AppNavBar.jsx";
+// import AppNavBar from "./AppNavBar.jsx";
+import AppNavBar from './AppNavBar.jsx'
 import Footer from "./Footer.jsx";
 import {Toaster} from "react-hot-toast";
 

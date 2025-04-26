@@ -1,11 +1,11 @@
 import React, {useEffect} from 'react';
-import Brands from "../components/product/brands.jsx";
-import ProductStore from "../store/ProductStore.js";
-import FeatureStore from "../store/FeatureStore.js";
-import Slider from "../components/product/slider.jsx";
-import Features from "../components/features/features.jsx";
-import Categories from "../components/product/categories.jsx";
-import Products from "../components/product/products.jsx";
+import Brands from "../components/product/brands";
+import ProductStore from "../store/ProductStore";
+import FeatureStore from "../store/FeatureStore";
+import Slider from "../components/product/slider";
+import Features from "../components/features/features";
+import Categories from "../components/product/categories";
+import Products from "../components/product/products";
 import Layout from './../components/layout/Layout';
 
 

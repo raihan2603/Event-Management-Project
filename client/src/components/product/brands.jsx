@@ -1,6 +1,6 @@
 import React from 'react';
-import ProductStore from "../../store/ProductStore.js";
-import BrandsSkeleton from "../../skeleton/brands-skeleton.jsx";
+import ProductStore from "../../store/ProductStore";
+import BrandsSkeleton from "../../skeleton/brands-skeleton";
 import {Link} from "react-router-dom";
 
 const Brands = () => {
