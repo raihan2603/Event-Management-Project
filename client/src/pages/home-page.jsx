@@ -10,6 +10,8 @@ import Layout from '../components/layout/Layout';
 
 
 
+
+
 const HomePage = () => {
 
     const {BrandListRequest,CategoryListRequest,SliderListRequest,ListByRemarkRequest}=ProductStore();
@@ -27,9 +29,8 @@ const HomePage = () => {
 
 
     return (
-    
         <Layout>
-             <Slider/>
+            <Slider/>
             <Features/>
             <Categories/>
             <Products/>
