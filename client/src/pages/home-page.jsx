@@ -6,7 +6,8 @@ import Slider from "../components/product/slider";
 import Features from "../components/features/features";
 import Categories from "../components/product/categories";
 import Products from "../components/product/products";
-import Layout from './../components/layout/Layout';
+import Layout from '../components/layout/Layout';
+
 
 
 const HomePage = () => {
@@ -26,13 +27,16 @@ const HomePage = () => {
 
 
     return (
+    
         <Layout>
-            <Slider/>
+             <Slider/>
             <Features/>
             <Categories/>
             <Products/>
             <Brands/>
         </Layout>
+           
+    
     );
 };
 
