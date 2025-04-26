@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import ProductStore from "../store/ProductStore";
 import {useParams} from "react-router-dom";
-import Layout from "../components/layout/Layout";
 import ProductList from "../components/product/product-list";
+import Layout from '../components/layout/Layout';
 
 const ProductByBrand = () => {
 
@@ -19,7 +19,7 @@ const ProductByBrand = () => {
 
     return (
         <Layout>
-              <ProductList/>
+            <ProductList/>
         </Layout>
     );
 };

@@ -1,9 +1,10 @@
 import Details from "../components/product/details.jsx";
-import Layout from "../components/layout/layout.jsx";
+
 import {useParams} from "react-router-dom";
 import Brands from "../components/product/brands.jsx";
 import ProductStore from "../store/ProductStore.js";
 import {useEffect} from "react";
+import Layout from "../components/layout/Layout.jsx";
 const ProductDetails = () => {
     const {BrandList,DetailsRequest,ReviewListRequest,BrandListRequest}=ProductStore();
     const {id}=useParams();

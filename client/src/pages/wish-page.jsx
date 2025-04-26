@@ -1,7 +1,7 @@
 import React from 'react';
-import Layout from "../components/layout/layout.jsx";
 import WishList from "../components/wish/wish-list.jsx";
 import Brands from "../components/product/brands.jsx";
+import Layout from '../components/layout/Layout.jsx';
 
 const WishPage = () => {
     return (
